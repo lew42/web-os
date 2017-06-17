@@ -1,5 +1,14 @@
 # web-os
 
+Rebuild all the things, with JavaScript:
+
+* git, npm
+* WordPress, Wikipedia, Reddit, StackOverflow
+* Facebook, Google, YouTube
+* Photoshop, Sketch, Illustrator, After Effects
+
+I need your help.  If you're interested, just follow this project.
+
 The "ultimate content management system" is more like a web operating system.  The core pillars of any operating system should be:
 
 * version control (for code, data, designs, and all things)
