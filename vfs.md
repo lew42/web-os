@@ -1,11 +1,24 @@
 # Virtual File System (vfs)
 
-* realtime
-* version controlled
-* transcends the "real" file system, and the in-memory "file system" (aka JavaScript objects)
-* GUI all the things
+* [virtual: transcends the file system](#transcendant)
+* [realtime, visual version control](#realtime-visual-version-controlled)
+* provide a consistent user experience (UI) for the version tree (and all its workflows), across all applications
+* allow developers to easily utilize this version tree for anything within their apps (settings, content, database records)
+* this is possible, right now, cross platform, with node and file watchers (like npm's `chokidar`)
+* the process of performance and ux optimiziation is never finished, but this is a good start
 
-This solution replaces the need for git.  This solution replaces the need for dropbox or google drive.
+This is the core functionality of any **operating system**, and hence, we call this project, the Web OS.
+
+But this runs deeper.  We can use the file system for browsing 
+
+Should include the functionality for (and eliminate the need for):
+* git, npm, JavaScript modules
+* user authentication/authorization
+* custom database implementations
+* dropbox, google drive, google docs
+* every piece of software, ever
+
+Yes, as you can see, when you build your module system on top of a realtime, version controlled platform, you have to build in several important features, like access control (user auth).  The "version control" part of the platform will uniquely identify every version of every file.  Modules (like npm, or git repos) are still just sets of files. 
 
 ## What does it look like?
 
@@ -17,8 +30,19 @@ See the [shortcomings](#shortcomings-of-the-current-systems) section to see the 
 
 See the [implementation](#implementation) section to see an overview of how this would work.
 
+## Realtime, Visual Version Control
+
+Realtime: changes to a file on one device instantly update on all devices.  This is what we've come to expect with "Google Docs".
+
+Visual Version Control: the typical Undo history is a linear sequence of steps.  This history should be visual (if you've used Photoshop, you'll know what this might look like).  But, this history should also allow branching.  And it should be persistent and distributed.  In Photoshop, and most apps, when you close the application, the history disappears.
+
+What does a version tree look like?  Like a tree... You start with something, and can branch at any time, any number of times.  You can back up to any point, and branch again.
+
+Do you think realtime, visual version control is important?  Do you think git is the culmination (peak) of realtime visual version control?  I've never found a git GUI that makes sense to me. 
+
 ## Shortcomings of the Current Systems
 
+Let's compare to 
 ### realtime + visual version control
 We don't really have a realtime + version controlled file system.  If you want version control, you get `git`, which is far from user-friendly, and not "realtime".
 
