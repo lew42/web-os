@@ -1,6 +1,6 @@
 # Virtual File System (vfs)
 
-* [virtual: transcends the file system](#transcendant)
+* [virtual: transcends the file system](transcendant.md)
 * [realtime, visual version control](#realtime-visual-version-controlled)
 * provide a consistent user experience (UI) for the version tree (and all its workflows), across all applications
 * allow developers to easily utilize this version tree for anything within their apps (settings, content, database records)
@@ -24,11 +24,7 @@ Yes, as you can see, when you build your module system on top of a realtime, ver
 
 This is always the most important question.  This was the turning point for personal computing: the GUI.  Yet, there are so many things (like git) that we do without a GUI.  The GUI for this [#vfs](vfs.md) will run in your browser, and you will have full access to the underlying code.  Extending it should be trivial.
 
-Designs and mockups will be helpful to visualize what this looks like.  We need help.  We need [unity](unity.md).
-
-See the [shortcomings](#shortcomings-of-the-current-systems) section to see the problems with the current file system.
-
-See the [implementation](#implementation) section to see an overview of how this would work.
+Designs and mockups will be helpful to visualize what this looks like.  We need help.  Lots of it.
 
 ## Realtime, Visual Version Control
 
