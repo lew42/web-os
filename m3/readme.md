@@ -2,7 +2,9 @@
 
 [Monetizing open-source software](monetization.md) is challenging, but extremely important to the success (quality, community, profitability) of the software.  Open source software usually lacks funding.  And closed source software lacks a community.
 
-Adding monetization to a module marketplace (like `npm`) is no trivial matter.  However, with [source code encryption](encrypting-module-source.md) and [advanced licensing controls](advanced-api-licensing.md), developers should be able to offer nearly free software to the community, embracing all the benefits of open-source software, while being able to monetize their work.
+Adding monetization to a module marketplace (like `npm`) is no trivial matter, and would require massive infrastructure change.
+
+However, with [source code encryption](encrypting-module-source.md) and [advanced licensing controls](advanced-api-licensing.md), I think it's possible.  Developers should be able to offer nearly free software to the community, embracing all the benefits of open-source software, while being able to monetize their work.
 
 For example, `npm` is a *marketplace* for *modules*, but it's not *monetized*.  Would monetization inhibit the quality and quantity of modules?
 
