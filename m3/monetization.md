@@ -9,7 +9,7 @@ The important point here is to understand that:
 2. it can be done
 3. it's extremely important for the success of the open source project
 
-I have a few two unique strategies for accomplishing this: [source code encryption and access control](encrypting-module-source.md), and granular [api licensing controls](advanced-api-licensing.md).
+I have a few unique strategies for accomplishing this: [source code encryption and access control](encrypting-module-source.md), and granular [api licensing controls](advanced-api-licensing.md).
 
 *Current open source monetization strategies*
 
