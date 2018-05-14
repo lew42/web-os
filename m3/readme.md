@@ -1,12 +1,10 @@
 # M3 (Monetized Module Marketplace)
 
-First read [open-source vs monetization](monetization.md).
+[Monetizing open-source software](monetization.md) is challenging, but extremely important to the success (quality, community, profitability) of the software.  Open source software usually lacks funding.  And closed source software lacks a community.
 
-## Absolutes
-* quality and quantity are important: the larger the marketplace, and better quality of modules, the better
-* monetiz
+Adding monetization to a module marketplace (like `npm`) is no trivial matter.  However, with [source code encryption](encrypting-module-source.md) and [advanced licensing controls](advanced-api-licensing.md), developers should be able to offer nearly free software to the community, embracing all the benefits of open-source software, while being able to monetize their work.
 
-`npm` is a *marketplace* for *modules*, but it's not *monetized*.  Would monetization inhibit the quality and quantity of modules?
+For example, `npm` is a *marketplace* for *modules*, but it's not *monetized*.  Would monetization inhibit the quality and quantity of modules?
 
 That's the brilliance of a free market: it's self regulating.  If a price is too high, the product won't sell, and/or others will compete.
 
