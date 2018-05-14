@@ -1,5 +1,7 @@
 # web-os
 
+I made a recent post over at IndieHackers.com, you can [read it here](https://www.indiehackers.com/forum/best-javascript-stack-for-a-realtime-community-platform-7bd6308454)
+
 Rebuild all the things, with JavaScript:
 
 * git, npm
