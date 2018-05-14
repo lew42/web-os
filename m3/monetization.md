@@ -11,6 +11,8 @@ The important point here is to understand that:
 
 I have a few two unique strategies for accomplishing this: [source code encryption and access control](encrypted-source-code.md), and granular [api licensing controls](advanced-api-licensing.md).
 
+*Current open source monetization strategies*
+
 ## Segmentation
 
 You separate your code base into 2 layers.  The most basic functionality becomes your free tier (and gets open-sourced), and the premium features remain closed-source.
@@ -28,3 +30,7 @@ For example, if you want to embed MySQL into your own software, you either need 
 This allows the software to benefit from being open source (allow anyone to contribute to it), and also allows the producer to charge money.
 
 The code is public, so there are no physical protections, just the legal implications.
+
+## Begging
+
+Some open-source projects ask their communities to contribute.  From a few twitter conversations, I've realized that most companies aren't inclined to pay for something if they don't have to.  Not just out of selfishness/greed, but because it's not a standard operating procedure, and making it happen requires effort.
