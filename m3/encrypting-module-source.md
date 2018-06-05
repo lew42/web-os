@@ -10,4 +10,10 @@ This introduces a new problem:  how do you stop malicious code, if you can't see
 
 We have a simple model for solving this problem:  requesting/granting access permissions, such as with mobile apps.  Does a module need access to the `fs`?  Can the module make network requests?
 
+## One minor hurdle:  Malicious Code
+
+If the source code is encrypted, you don't know what it's doing.  With `npm`, a module author could decide, overnight, to publish a new change that reads your file system and steals personal information.
+
+Yet, if each module is sandboxed as securely as possible, each module would need to require access to use the file system, and would be sandboxed to its own directory (I believe most operating systems do this by default?).
+
 Allowing arbitrary code to run in a safe, sandboxed environment is a tricky, but important challenge to solve.
